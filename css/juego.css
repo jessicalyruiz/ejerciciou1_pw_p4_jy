@@ -1,0 +1,56 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juego{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.textoinicial{
+border: dashed 2px black;
+border-radius: 15px;
+padding: 10px;
+}
+.botones{
+    display: grid;
+    margin: 10px;
+    background-color: rgb(221, 216, 216);
+    text-align: center;
+}
+button{
+    margin: 5px;
+    border-radius: 5px;
+    border: solid 1px rgb(199, 195, 195);
+    background-color: white;
+   /* width: 200px;*/
+}
+button:hover{
+
+    background-color: pink;
+
+}
+.msj label{
+    background-color: blue;
+    border: solid paleturquoise 2px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: aliceblue;
+}
+.oculto{
+    display: none;
+}
+.visible{
+    display: block;
+}
+
+
+#btnreiniciar{
+    width: 100px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px 5px rgb(126, 123, 123);
+}

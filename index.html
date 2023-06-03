@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/juego.css">
+    <script src="./js/juego.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="juego">
+            <header>
+                <h1>Juego pokemon</h1>
+            </header>
+            <nav></nav>
+            <section>
+                <div class="textoinicial">
+                    <h3 id="puntaje">Puntaje:0</h2>
+                        <h3 id="intentos">Intentos:0</h2>
+                            <h3 id="msjinicial">Selecciona el nombre del pokemon correcto</h2>
+                </div>
+                <img src="./img/pnegro.jpg" id="img" alt="no se puede mostrar" id="">
+
+                <div class="botones">
+                    <button onclick="jugar('keldeo-ordinary')">keldeo-ordinary</button>
+                    <button onclick="jugar('drilbur')">drilbur</button>
+                    <button onclick="jugar('ninjask')">ninjask</button>
+                    <button onclick="jugar('excadrill')">excadrill</button>
+                </div>
+
+                <div class="msj">
+                    <label for="" id="msjcorrecto" class="oculto">Felicitaciones, has seleccionado la opción
+                        correcta</label>
+                    <label for="" id="msjincorrecto" class="oculto">Pokemon incorrecto, intentelo nuevamente</label>
+                </div>
+                <button id="btnreiniciar" onclick="reiniciar()">Reiniciar</button>
+            </section>
+
+        </div>
+    </div>
+</body>
+
+</html>
